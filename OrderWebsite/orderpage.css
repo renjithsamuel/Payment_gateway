@@ -1,0 +1,120 @@
+body {
+  font-family: 'poppins', sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    margin: 37px auto;
+    height: 40vh;
+    width: 60%;
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(206, 206, 206);
+    padding: 30px;
+    border-radius: 20px;
+    transition: all 0.3s;
+    
+  }
+  .container:hover{
+    
+    box-shadow: 2px 2px 8px 2px grey;
+  }
+  .product-info {
+    width: 45%;
+    margin-right: 30px;
+  }
+  .product-info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .product-info p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .product-image {
+    height: 40vh;
+    /* width: 45%; */
+  }
+  .product-image img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .proceed-button {
+    display: block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color:#A8765c;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s;
+  }
+  .proceed-button:hover {
+    background-color: #D59b7d;
+    box-shadow: 2px 2px 8px 2px #774932;
+  }
+  a{
+      text-decoration: none;
+  }
+
+  #paymentstatus{
+    background-color: rgb(213, 213, 213);
+    box-shadow: 2px 2px 8px 2px rgb(182, 182, 182);
+    height: 30vh;
+    width: 60vw;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.3s;
+  }
+  #paymentstatus:hover{
+    box-shadow: 2px 2px 8px 2px rgb(135, 135, 135);
+  }
+  #one{
+    display: none;
+  }
+  #noorder{
+    display: block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color:#A8765c;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s;
+  }
+
+  #noorder:hover {
+    background-color: #D59b7d;
+    box-shadow: 2px 2px 8px 2px #774932;
+  }
+
+  .logout{
+    background-color: grey;
+    height: 40px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 90vw;
+    top: 5vh;
+    border-radius: 30px;
+    transition: all 0.3s;
+  }
+
+  .logout:hover{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  }

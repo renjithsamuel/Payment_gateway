@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bank login</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .login{
+        display: flex;
+        flex-direction: column ;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+        width: 30vw;
+        background-color: rgb(183, 233, 246);
+        padding: 5vh;
+        margin-top: 10vh;
+        border-radius: 30px;
+        
+    }
+
+    input{
+        all: unset;
+        background-color: aliceblue;
+        border: 1px solid grey;
+        border-radius: 30px;
+        padding: 2vh;
+        margin: 2vh;
+        transition: all 0.3s ease;
+    }
+    input:hover{
+        box-shadow: 1px 4px 4px 0px grey;
+    }
+    input:focus{
+       padding: 2.3vh;
+    }
+
+    button{
+        all: unset;
+        background-color: bisque;
+        padding: 1.5vh;
+        border-radius: 30px;
+        border: 1px solid gray;
+        transition: all 0.3s ease;
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: rgb(255, 201, 126);
+        box-shadow: 1px 4px 4px 0px grey;;
+    }
+</style>
+<script src="index.js" type="module"></script>
+<body>
+    <div class="login">
+        <h1>Bank</h1>
+        <div class="username">
+            <input type="text" id="username" placeholder="username">
+        </div>
+        <div class="password">
+            <input type="password" id="password" placeholder="password">
+        </div>
+        <div class="btn">
+            <button type="button" id="login">login</button>
+        </div>
+    </div>
+</body>
+</html>

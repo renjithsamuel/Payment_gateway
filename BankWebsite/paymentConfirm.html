@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Confirmation</title>
+    <link rel="stylesheet" href="./paymenConfirm.css">
+    <script src="paymentConfirm.js" type="module"></script>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <div class="logout" id='logout' >
+        logout
+    </div>
+  <div class="container">
+    <h1>Payment Confirmation</h1>
+    <p>Thank you for your payment!</p>
+    <p>Your transaction has been processed successfully.</p>
+    <p>Order Number: 12345</p>
+    <p>Amount Paid: $50.00</p>
+    <p>Payment Method: Credit Card</p>
+    <p>Date and Time: March 10, 2023 3:00 PM EST</p>
+    <form >
+      <div class="box">
+        <label for="accept">Accept Payment:</label>
+        <button type="button" id="accept" value="Accept" >Accept</button>
+      </div>
+      <div class="box decline">
+        <label for="decline">Decline Payment:</label>
+        <button type="button" id="decline" value="Decline">Decline</button>
+      </div>
+    </form>
+    <p>For any inquiries or issues, please contact our support team.</p>
+  </div>
+</body>
+</html>
